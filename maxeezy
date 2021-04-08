@@ -1,0 +1,44 @@
+[?1049h[?1h=[1;29r[?12;25h[?12l[?25h[27m[m[H[2J[?25l[29;1H"config/web.php" 75L, 2200C[1;1H[35m[106m<[m[35m?php[m
+
+[38;5;130m$[m[36mparams[m [38;5;130m=[m [35mrequire[m [31m__DIR__[m [38;5;130m.[m '[31m/params.php[m';
+[38;5;130m$[m[36mdb[m [38;5;130m=[m [35mrequire[m [31m__DIR__[m [38;5;130m.[m '[31m/db.php[m';
+
+[38;5;130m$[m[36mconfig[m [38;5;130m=[m [35m[[m
+    '[31mid[m' [38;5;130m=[m[38;5;130m[106m>[m '[31mbasic[m',
+    '[31mbasePath[m' [38;5;130m=>[m [36mdirname[m[35m([m[31m__DIR__[m[35m)[m,
+    '[31mbootstrap[m' [38;5;130m=>[m [35m[[m'[31mlog[m'[35m][m,
+    '[31maliases[m' [38;5;130m=>[m [35m[[m[11;9H'[31m@bower[m' [38;5;130m=>[m '[31m@vendor/bower-asset[m',[12;9H'[31m@npm[m'   [38;5;130m=>[m '[31m@vendor/npm-asset[m',
+    [35m][m,
+    '[31mcomponents[m' [38;5;130m=>[m [35m[[m[15;9H'[31mrequest[m' [38;5;130m=>[m [35m[[m[16;13H[34m// !!! insert a secret key in the following (if it is empty) -      [17;1Hthis is required by cookie validation[m[18;13H'[31mcookieValidationKey[m' [38;5;130m=>[m '',[19;9H[35m][m,[20;9H'[31mcache[m' [38;5;130m=>[m [35m[[m[21;13H'[31mclass[m' [38;5;130m=>[m '[31myii\caching\FileCache[m',[22;9H[35m][m,[23;9H'[31muser[m' [38;5;130m=>[m [35m[[m[24;13H'[31midentityClass[m' [38;5;130m=>[m '[31mapp\models\User[m',[25;13H'[31menableAutoLogin[m' [38;5;130m=>[m [31mtrue[m,[26;9H[35m][m,[27;9H'[31merrorHandler[m' [38;5;130m=>[m [35m[[m
+[1m[7mconfig/web.php                                                     1,1  Наверху[1;1H[?12l[?25h[29;1H
+[m[?1l>[?1049l[?1049h[?1h=[?12;25h[?12l[?25h[27m[m[H[2J[?25l[1;1H[35m[106m<[m[35m?php[m
+
+[38;5;130m$[m[36mparams[m [38;5;130m=[m [35mrequire[m [31m__DIR__[m [38;5;130m.[m '[31m/params.php[m';
+[38;5;130m$[m[36mdb[m [38;5;130m=[m [35mrequire[m [31m__DIR__[m [38;5;130m.[m '[31m/db.php[m';
+
+[38;5;130m$[m[36mconfig[m [38;5;130m=[m [35m[[m
+    '[31mid[m' [38;5;130m=[m[38;5;130m[106m>[m '[31mbasic[m',
+    '[31mbasePath[m' [38;5;130m=>[m [36mdirname[m[35m([m[31m__DIR__[m[35m)[m,
+    '[31mbootstrap[m' [38;5;130m=>[m [35m[[m'[31mlog[m'[35m][m,
+    '[31maliases[m' [38;5;130m=>[m [35m[[m[11;9H'[31m@bower[m' [38;5;130m=>[m '[31m@vendor/bower-asset[m',[12;9H'[31m@npm[m'   [38;5;130m=>[m '[31m@vendor/npm-asset[m',
+    [35m][m,
+    '[31mcomponents[m' [38;5;130m=>[m [35m[[m[15;9H'[31mrequest[m' [[?12;25h[?12l[?25h[27m[m[H[2J[?25l[1;1H[35m<?php[m
+ [38;5;130m/[mhome[38;5;130m/[musername[38;5;130m/[mdomains[38;5;130m/[mdomain[38;5;130m.[mru[38;5;130m/[mweb [38;5;130m/[mhome[38;5;130m/[musername[38;5;130m/[mdomains[38;5;130m/[mdomain[38;5;130m.[mru[38;5;130m/         [m[3;1Hpublic_html
+[38;5;130m$[m[36mparams[m [38;5;130m=[m [35mrequire[m [31m__DIR__[m [38;5;130m.[m '[31m/params.php[m';
+[38;5;130m$[m[36mdb[m [38;5;130m=[m [35mrequire[m [31m__DIR__[m [38;5;130m.[m '[31m/db.php[m';
+
+[38;5;130m$[m[36mconfig[m [38;5;130m=[m [35m[[m
+    '[31mid[m' [38;5;130m=>[m '[31mbasic[m',
+    '[31mbasePath[m' [38;5;130m=>[m [36mdirname[m[35m([m[31m__DIR__[m[35m)[m,
+    '[31mbootstrap[m' [38;5;130m=>[m [35m[[m'[31mlog[m'[35m][m,
+    '[31maliases[m' [38;5;130m=>[m [35m[[m[12;9H'[31m@bower[m' [38;5;130m=>[m '[31m@vendor/bower-asset[m',[13;9H'[31m@npm[m'   [38;5;130m=>[m '[31m@vendor/npm-asset[m',
+    [35m][m,
+    '[31mcomponents[m' [38;5;130m=>[m [35m[[m[16;9H'[31Vim: Finished.
+[29;1Hm=>[m [35m[[m[17;13H[34m// !!! insert a secret key in the following (if it is empty) -      [18;1Hthis is required by cookie validation[m[19;13H'[31mcookieValidationKey[m' [38;5;130m=>[m '',[20;9H[35m][m,[21;9H'[31mcache[m' [38;5;130m=>[m [35m[[m[22;13H'[31mclass[m' [38;5;130m=>[m '[31myii\caching\FileCache[m',[23;9H[35m][m,[24;9H'[31muser[m' [38;5;130m=>[m [35m[[m[25;13H'[31midentityClass[m' [38;5;130m=>[m '[31mapp\models\User[m',[26;13H'[31menableAutoLogin[m' [38;5;130m=>[m [31mtrue[m,[27;9H[35m][m,
+[1m[7mconfig/web.php [+]                                                 9,5  Наверху[10;5H[?12l[?25h[m[29;1H
+[32mW12: Предупреждение: файл "config/web.php" и буфер Vim были изменены независим[m
+[28;79H[32mо[29;1H друг от друга[m
+[32mСм. ":help W12" для дополнительной информации.[m
+[32m[O]K, (L) Загрузить файл: [m[?1l>[?1049lVim: Caught deadly signal HUP
+Vim: Finished.
+[29;1H
